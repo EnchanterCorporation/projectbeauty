@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signup"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.enchanter19.projectbeauty.register"
+    tools:showIn="@layout/activity_register">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="50dp"
+       android:layout_gravity="center"
+        android:textColor="#FFF"
+        android:textSize="30dp"
+        android:text="SignUp"/>
+    <EditText
+       android:textColorHint="@color/colorwhite"
+        android:backgroundTint="@color/colorwhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp"
+        android:textColor="@color/colorwhite"
+        android:hint="First Name"
+        android:textColorHighlight="@color/colorwhite"
+        android:id="@+id/first"
+        android:inputType="text"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:backgroundTint="@color/colorwhite"
+        android:textColor="@color/colorwhite"
+        android:inputType="text"
+
+        android:hint="Last Name"
+        android:textColorHint="@color/colorwhite"
+        android:id="@+id/last"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:textColor="@color/colorwhite"
+        android:paddingTop="10dp"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"
+        android:inputType="number"
+        android:backgroundTint="@color/colorwhite"
+        android:textColorHint="@color/colorwhite"
+        android:id="@+id/phone"
+        />
+    <EditText
+        android:paddingTop="10dp"
+        android:textColor="@color/colorwhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+
+        android:textColorHint="@color/colorwhite"
+        android:backgroundTint="@color/colorwhite"
+        android:id="@+id/pass1"
+        />
+    <EditText
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ConfirmPassword"
+
+        android:textColor="@color/colorwhite"
+        android:textColorHint="@color/colorwhite"
+        android:backgroundTint="@color/colorwhite"
+        android:id="@+id/confirm"
+        />
+    <Button
+        android:background="@drawable/cournerround"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonsub"
+        android:text="Submit"
+
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/colorwhite"
+        android:id="@+id/loginjj"
+        android:text="Login here"/>
+
+</LinearLayout>
